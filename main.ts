@@ -1,0 +1,11 @@
+basic.forever(function () {
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 60)
+    maqueen.motorStop(maqueen.Motors.All)
+    maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
+    maqueen.motorStop(maqueen.Motors.All)
+    maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
+    maqueen.motorStop(maqueen.Motors.All)
+    maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
+    maqueen.motorStop(maqueen.Motors.All)
+    maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
+})
